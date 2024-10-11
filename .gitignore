@@ -68,6 +68,14 @@ php_errors.log
 #-------------------------
 # User Guide Temp Files
 #-------------------------
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!system/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
@@ -124,3 +132,8 @@ nb-configuration.xml
 
 /results/
 /phpunit*.xml
+#codeigniter 3
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+/vendor/
