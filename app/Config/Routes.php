@@ -64,3 +64,6 @@ $routes->post('reportes/getAlumnosCarreraTable', 'ReportesController::getAlumnos
 
 
 $routes->get('reportes/notas-por-alumno', 'ReportesController::notasPorAlumno');
+$routes->get('reportes/getCursosCombo', 'ReportesController::getCursosCombo');
+$routes->get('reportes/getSeccionesCombo', 'ReportesController::getSeccionesCombo');
+$routes->post('reportes/getNotasAlumnoTable', 'ReportesController::getNotasAlumnoTable');
