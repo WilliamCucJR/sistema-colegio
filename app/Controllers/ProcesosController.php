@@ -238,7 +238,9 @@ class ProcesosController extends BaseController
             foreach ($estudiantes as $estudiante):
                 $html .= '<div class="col">
                     <div class="card h-100">
-                        <img src="' . base_url('uploads/' . esc($estudiante->fotografia)) . '" class="card-img-top mx-auto d-block" alt="Foto de ' . esc($estudiante->nombre) . '" style="height:150px; width:150px; margin:10px">
+                        <div class="d-flex justify-content-center align-items-center" style="border-radius:50%; overflow:hidden; width:150px; height:150px; margin: 20px auto;">
+                            <img src="' . base_url('uploads/' . esc($estudiante->fotografia)) . '" alt="Foto de ' . esc($estudiante->nombre) . '" style="height:100%; width:100%; object-fit:cover;">
+                        </div>
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title">' . esc($estudiante->nombre) . ' ' . esc($estudiante->apellido) . '</h5>
                             <p class="card-text"><strong>Carrera:</strong> ' . esc($estudiante->nombre_carrera) . '</p>

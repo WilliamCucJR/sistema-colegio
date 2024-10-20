@@ -28,10 +28,10 @@
                         <a href="<?= base_url('mantenimiento/mantenimiento-carreras'); ?>"><i class="fa-solid fa-graduation-cap"></i> Carreras</a>
                     </li>
                     <li class="item">
-                        <a href="<?= base_url('mantenimiento/mantenimiento-semestre'); ?>"><i class="fa-solid fa-arrow-up-9-1"></i> Semestres</a>
+                        <a href="<?= base_url('mantenimiento/mantenimiento-semestre'); ?>"><i class="fa-solid fa-calendar"></i> Semestres</a>
                     </li>
                     <li class="item">
-                        <a href="<?= base_url('mantenimiento/mantenimiento-secciones'); ?>"><i class="fa-solid fa-bars"></i> Secciónes</a>
+                        <a href="<?= base_url('mantenimiento/mantenimiento-secciones'); ?>"><i class="fa-solid fa-bars"></i> Secciones</a>
                     </li>
                     <li class="item">
                         <a href="<?= base_url('mantenimiento/mantenimiento-cursos'); ?>"><i class="fa-solid fa-puzzle-piece"></i> Cursos</a>

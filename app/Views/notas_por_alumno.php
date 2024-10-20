@@ -2,7 +2,7 @@
 <?= $this->include('templates/sidebar'); ?>
 
 <main class="main">
-    <h2><i class="fa-solid fa-file-pdf"></i> Alumnos por Carrera</h2>
+    <h2><i class="fa-solid fa-file-pdf"></i> Notas por Alumno</h2>
     <div class="card">
         <div class="card-header">
             Buscar Estudiante
@@ -107,7 +107,7 @@
     function getCursosCombo() {
 
         $.ajax({
-            url: '<?= base_url('reportes/getCarrerasCombo'); ?>',
+            url: '<?= base_url('reportes/getCursosCombo'); ?>',
             type: 'get',
             success: function(response) {
                 $('#id_curso').html(response);

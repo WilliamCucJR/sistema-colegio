@@ -2,7 +2,7 @@
 <?= $this->include('templates/sidebar'); ?>
 
 <main class="main">
-    <h2><i class="fa-solid fa-list"></i> Asignar de Cursos</h2>
+    <h2><i class="fa-solid fa-list"></i> Asignar Cursos</h2>
     <button type="button" class="btn modal-button" data-toggle="modal" data-target="#mantenimientoModal">
         <i class="fa-solid fa-plus"></i> Agregar
     </button>
